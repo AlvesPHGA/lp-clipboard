@@ -1,10 +1,21 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
+   @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
    *{
-      padding: 0px;
-      margin: 0px;
       box-sizing: border-box;
+      margin: 0px;
+      padding: 0px;
+   }
+
+   body{
+      font-family: 'Bai Jamjuree', sans-serif;
+   }
+
+   h1, h2, h3{
+      color: ${({ theme }) => theme.colors.dark_grayish_blue_neu};
+      font-weight: 600;
    }
 
    h1{
@@ -20,6 +31,8 @@ export const GlobalStyle = createGlobalStyle`
    }
 
    p{
+      color: ${({ theme }) => theme.colors.grayish_blue_neu};
       font-size: ${({ theme }) => theme.font_size.text};
+      font-weight: 400;
    }
 `;
