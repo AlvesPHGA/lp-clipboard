@@ -7,9 +7,9 @@ export const theme = {
    },
 
    font_size: {
-      sub_title: '1.20rem',
-      title_sec: '1.24rem',
-      title: '2rem',
-      text: '1.125rem',
+      sub_title: '2rem',
+      title_sec: '2.5rem',
+      title: '3rem',
+      text: '1.20rem',
    },
 };
