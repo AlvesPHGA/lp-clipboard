@@ -1,7 +1,8 @@
 import React from 'react';
+import { CTAStyle } from './CTA.style';
 
 const CTA = ({ children }) => {
-   return <a>{children}</a>;
+   return <CTAStyle>{children}</CTAStyle>;
 };
 
 export default CTA;
