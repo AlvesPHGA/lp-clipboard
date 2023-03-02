@@ -14,8 +14,8 @@ const History = () => {
             </p>
 
             <BoxBtns>
-               <CTA>Dowload for iOS</CTA>
-               <CTA>Dowload for Mac</CTA>
+               <CTA datalegend="green">Dowload for iOS</CTA>
+               <CTA datalegend="blue">Dowload for Mac</CTA>
             </BoxBtns>
          </Wrap__1200>
       </HistoryStyle>
