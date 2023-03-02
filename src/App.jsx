@@ -1,4 +1,4 @@
-import Subheader from './sections/subheader';
+import Subheader from './sections/Subheader/Subheader';
 
 function App() {
    return (
