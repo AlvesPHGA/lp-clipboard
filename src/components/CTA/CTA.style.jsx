@@ -20,4 +20,14 @@ export const CTAStyle = styled.a`
    font-weight: 500;
    padding: 1rem 1.5rem;
    width: fit-content;
+   transition: all 0.7s;
+
+   &:hover {
+      opacity: 0.8;
+      box-shadow: 0px 2px 0px 1px
+         ${(props) =>
+            props['data-cta'] === 'green'
+               ? 'hsl(171, 66%, 35%)'
+               : 'hsl(233, 100%, 55%)'};
+   }
 `;
