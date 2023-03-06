@@ -1,4 +1,5 @@
 import History from './sections/History/History';
+import Snippets from './sections/Snippets/Snippets';
 import Subheader from './sections/Subheader/Subheader';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
       <>
          <Subheader />
          <History />
+         <Snippets />
       </>
    );
 }
