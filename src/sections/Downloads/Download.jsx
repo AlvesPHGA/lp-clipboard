@@ -1,4 +1,6 @@
 import React from 'react';
+import BoxBtns from '../../components/BoxBtns/BoxBtns';
+import CTA from '../../components/CTA/CTA';
 import { Wrap__1200 } from '../../Styles/Styles.style';
 import { DownloadStyle } from './Download.style';
 
@@ -12,6 +14,8 @@ const Download = () => {
                sync with iCloud and you're ready to start adding to your
                clipboard.
             </p>
+
+            <BoxBtns />
          </Wrap__1200>
       </DownloadStyle>
    );
