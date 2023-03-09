@@ -1,4 +1,5 @@
 import Access from './sections/Access/Access';
+import Companies from './sections/Companies/Companies';
 import History from './sections/History/History';
 import Snippets from './sections/Snippets/Snippets';
 import Subheader from './sections/Subheader/Subheader';
@@ -12,6 +13,7 @@ function App() {
          <Snippets />
          <Access />
          <Workflow />
+         <Companies />
       </>
    );
 }
