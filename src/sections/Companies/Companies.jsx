@@ -12,21 +12,23 @@ const Companies = () => {
    return (
       <CompaniesStyle>
          <Wrap__1200>
-            <Company>
-               <img src={Google} alt="" />
-            </Company>
-            <Company>
-               <img src={IBM} alt="" />
-            </Company>
-            <Company>
-               <img src={Microsoft} alt="" />
-            </Company>
-            <Company>
-               <img src={Hewlett} alt="" />
-            </Company>
-            <Company>
-               <img src={Vector} alt="" />
-            </Company>
+            <div className="companies">
+               <Company>
+                  <img src={Google} alt="" />
+               </Company>
+               <Company>
+                  <img src={IBM} alt="" />
+               </Company>
+               <Company>
+                  <img src={Microsoft} alt="" />
+               </Company>
+               <Company>
+                  <img src={Hewlett} alt="" />
+               </Company>
+               <Company>
+                  <img src={Vector} alt="" />
+               </Company>
+            </div>
          </Wrap__1200>
       </CompaniesStyle>
    );
