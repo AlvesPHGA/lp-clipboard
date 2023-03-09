@@ -15,7 +15,9 @@ const Workflow = () => {
 
             <BoxWork>
                <Work>
-                  <img src={iconBlacklist} alt="" />
+                  <div className="image">
+                     <img src={iconBlacklist} alt="" />
+                  </div>
                   <h3>Create blacklists</h3>
                   <p>
                      Ensure sensitive information never makes its way to your
@@ -23,7 +25,9 @@ const Workflow = () => {
                   </p>
                </Work>
                <Work>
-                  <img src={iconText} alt="" />
+                  <div className="image">
+                     <img src={iconText} alt="" />
+                  </div>
                   <h3>Plain text snippets</h3>
                   <p>
                      Remove unwanted formatting from copied text for a
@@ -31,7 +35,9 @@ const Workflow = () => {
                   </p>
                </Work>
                <Work>
-                  <img src={iconPreview} alt="" />
+                  <div className="image">
+                     <img src={iconPreview} alt="" />
+                  </div>
                   <h3>Sneak preview</h3>
                   <p>
                      Quick preview of all snippets on your Clipboard for easy
