@@ -14,11 +14,21 @@ const Footer = () => {
                      <img src={logoSub} alt="Logo Clipboard" />
                   </div>
                   <div className="link-footer">
-                     <a href="">FAQs</a>
-                     <a href="">Privacy Policy</a>
-                     <a href="">Install Guide</a>
-                     <a href="">Contact Us</a>
-                     <a href="">Press Kit</a>
+                     <a className="faq" href="">
+                        FAQs
+                     </a>
+                     <a className="privacy" href="">
+                        Privacy Policy
+                     </a>
+                     <a className="guide" href="">
+                        Install Guide
+                     </a>
+                     <a className="contact" href="">
+                        Contact Us
+                     </a>
+                     <a className="kit" href="">
+                        Press Kit
+                     </a>
                   </div>
                   <div className="social-media"></div>
                </BoxContentFooter>
