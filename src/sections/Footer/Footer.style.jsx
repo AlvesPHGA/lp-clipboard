@@ -1,7 +1,9 @@
 import styled from 'styled-components';
+import { theme } from '../../Theme';
 
 export const FooterStyle = styled.footer`
-   padding: 1.25rem 0;
+   padding: 2rem 0;
+   background: #eee;
 `;
 
 export const BoxContentFooter = styled.div`
@@ -40,6 +42,12 @@ export const BoxContentFooter = styled.div`
          font-size: 1.125rem;
          text-decoration: none;
          line-height: normal;
+         color: ${theme.colors.dark_grayish_blue_neu};
+         transition: all 0.3s ease;
+
+         &:hover {
+            color: ${theme.colors.strong_cyan_prim};
+         }
       }
    }
 
