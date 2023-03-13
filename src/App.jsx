@@ -1,6 +1,7 @@
 import Access from './sections/Access/Access';
 import Companies from './sections/Companies/Companies';
 import Download from './sections/Downloads/Download';
+import Footer from './sections/Footer/Footer';
 import History from './sections/History/History';
 import Snippets from './sections/Snippets/Snippets';
 import Subheader from './sections/Subheader/Subheader';
@@ -16,6 +17,7 @@ function App() {
          <Workflow />
          <Companies />
          <Download />
+         <Footer />
       </>
    );
 }
