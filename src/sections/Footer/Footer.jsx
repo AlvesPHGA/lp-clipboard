@@ -3,6 +3,9 @@ import { Wrap__1200 } from '../../Styles/Styles.style';
 import { BoxContentFooter, FooterStyle } from './Footer.style';
 
 import logoSub from '../../assets/logo.svg';
+import iconFace from '../../assets/icon-facebook.svg';
+import iconTwitter from '../../assets/icon-twitter.svg';
+import iconInstagram from '../../assets/icon-instagram.svg';
 
 const Footer = () => {
    return (
@@ -30,7 +33,11 @@ const Footer = () => {
                         Press Kit
                      </a>
                   </div>
-                  <div className="social-media"></div>
+                  <div className="social-media">
+                     <img src={iconFace} alt="" />
+                     <img src={iconTwitter} alt="" />
+                     <img src={iconInstagram} alt="" />
+                  </div>
                </BoxContentFooter>
             </Wrap__1200>
          </FooterStyle>

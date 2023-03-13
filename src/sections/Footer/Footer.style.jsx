@@ -42,4 +42,20 @@ export const BoxContentFooter = styled.div`
          line-height: normal;
       }
    }
+
+   & .social-media {
+      & img {
+         width: 30px;
+         cursor: pointer;
+         transition: all 0.3s ease-in-out;
+
+         &:hover {
+            transform: scale(1.1);
+         }
+
+         &:nth-child(2) {
+            margin: 0 1rem;
+         }
+      }
+   }
 `;
