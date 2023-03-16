@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { device } from '../Styles/Breakpoints.style';
 
 export const GlobalStyle = createGlobalStyle`
    @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
@@ -20,6 +21,10 @@ export const GlobalStyle = createGlobalStyle`
 
    h1{
       font-size: ${({ theme }) => theme.font_size.title};
+
+      @media ${device.mobileS} {
+      font-size: 1.75rem;
+   }
    }
 
    h2{
