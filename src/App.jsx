@@ -11,7 +11,7 @@ function App() {
    return (
       <>
          <Header />
-         <main>
+         {/* <main>
             <History />
             <Snippets />
             <Access />
@@ -19,7 +19,7 @@ function App() {
             <Companies />
             <Download />
          </main>
-         <Footer />
+         <Footer /> */}
       </>
    );
 }
