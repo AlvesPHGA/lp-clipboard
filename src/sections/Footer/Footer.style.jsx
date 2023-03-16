@@ -1,15 +1,31 @@
 import styled from 'styled-components';
+import { device } from '../../Styles/Breakpoints.style';
 import { theme } from '../../Theme';
 
 export const FooterStyle = styled.footer`
    padding: 2rem 0;
    background: #eee;
+
+   @media ${device.mobileS} {
+      padding: 1rem 0;
+   }
 `;
 
 export const BoxContentFooter = styled.div`
    display: flex;
    justify-content: space-between;
    align-items: center;
+
+   @media ${device.mobileS} {
+      flex-direction: column;
+      gap: 2rem;
+   }
+
+   & .logo img {
+      @media ${device.mobileS} {
+         width: 100px;
+      }
+   }
 
    & .link-footer {
       display: grid;
@@ -48,6 +64,13 @@ export const BoxContentFooter = styled.div`
          &:hover {
             color: ${theme.colors.strong_cyan_prim};
          }
+      }
+
+      @media ${device.mobileS} {
+         display: flex;
+         flex-direction: column;
+         gap: 1rem;
+         text-align: center;
       }
    }
 
