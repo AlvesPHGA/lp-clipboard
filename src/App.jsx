@@ -4,19 +4,21 @@ import Download from './sections/Downloads/Download';
 import Footer from './sections/Footer/Footer';
 import History from './sections/History/History';
 import Snippets from './sections/Snippets/Snippets';
-import Subheader from './sections/Subheader/Subheader';
+import Header from './sections/Header/Header';
 import Workflow from './sections/Workflow/Workflow';
 
 function App() {
    return (
       <>
-         <Subheader />
-         <History />
-         <Snippets />
-         <Access />
-         <Workflow />
-         <Companies />
-         <Download />
+         <Header />
+         <main>
+            <History />
+            <Snippets />
+            <Access />
+            <Workflow />
+            <Companies />
+            <Download />
+         </main>
          <Footer />
       </>
    );

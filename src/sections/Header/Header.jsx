@@ -1,16 +1,16 @@
 import React from 'react';
 
 import logoSub from '../../assets/logo.svg';
-import { SubheaderStyle } from './Subheader.style';
+import { HeaderStyle } from './Header.style';
 
-const Subheader = () => {
+const Header = () => {
    return (
       <>
-         <SubheaderStyle>
+         <HeaderStyle>
             <img src={logoSub} alt="Logo Clipboard" />
-         </SubheaderStyle>
+         </HeaderStyle>
       </>
    );
 };
 
-export default Subheader;
+export default Header;
