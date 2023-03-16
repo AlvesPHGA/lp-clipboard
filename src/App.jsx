@@ -11,14 +11,14 @@ function App() {
    return (
       <>
          <Header />
-         {/* {/* <main>
+         <main>
             <History />
-            <Snippets />
-            <Access />
-            <Workflow />
-            <Companies />
-            <Download />
-         </main> */}
+            {/* // <Snippets />
+            // <Access />
+            // <Workflow />
+            // <Companies />
+            // <Download /> */}
+         </main>
          <Footer />
       </>
    );

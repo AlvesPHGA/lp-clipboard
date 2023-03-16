@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from '../../Styles/Breakpoints.style';
 
 export const CTAStyle = styled.a`
    background: ${(props) =>
@@ -21,6 +22,10 @@ export const CTAStyle = styled.a`
    padding: 1rem 1.5rem;
    width: fit-content;
    transition: all 0.7s;
+
+   @media ${device.mobileS} {
+      width: 100%;
+   }
 
    &:hover {
       opacity: 0.8;
