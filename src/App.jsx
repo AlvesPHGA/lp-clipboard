@@ -17,11 +17,7 @@ function App() {
             <Access />
             <Workflow />
             <Companies />
-            {/* // 
-            // 
-            // 
-            // 
-            // <Download /> */}
+            <Download />
          </main>
          <Footer />
       </>

@@ -9,6 +9,7 @@ export const SnippetsStyle = styled.section`
 
    @media ${device.mobileS} {
       width: 100%;
+      padding-bottom: 2.5rem;
    }
 
    & p {
