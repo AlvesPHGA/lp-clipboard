@@ -15,9 +15,10 @@ function App() {
             <History />
             <Snippets />
             <Access />
+            <Workflow />
             {/* // 
             // 
-            // <Workflow />
+            // 
             // <Companies />
             // <Download /> */}
          </main>
