@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from '../../Styles/Breakpoints.style';
 
 export const CompaniesStyle = styled.section`
    padding: 5rem 0;
@@ -7,6 +8,12 @@ export const CompaniesStyle = styled.section`
       display: grid;
       grid-template-columns: repeat(5, 1fr);
       align-items: center;
+
+      @media ${device.mobileS} {
+         display: flex;
+         flex-direction: column;
+         gap: 4rem;
+      }
    }
 `;
 

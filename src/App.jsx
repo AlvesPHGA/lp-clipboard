@@ -16,10 +16,11 @@ function App() {
             <Snippets />
             <Access />
             <Workflow />
+            <Companies />
             {/* // 
             // 
             // 
-            // <Companies />
+            // 
             // <Download /> */}
          </main>
          <Footer />
