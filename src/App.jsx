@@ -14,8 +14,9 @@ function App() {
          <main>
             <History />
             <Snippets />
+            <Access />
             {/* // 
-            // <Access />
+            // 
             // <Workflow />
             // <Companies />
             // <Download /> */}
