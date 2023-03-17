@@ -24,15 +24,21 @@ export const GlobalStyle = createGlobalStyle`
 
       @media ${device.mobileS} {
       font-size: 1.75rem;
-   }
+      }
    }
 
    h2{
       font-size: ${({ theme }) => theme.font_size.title_sec};
+      @media ${device.mobileS} {
+      font-size: 1.75rem;
+      }
    }
 
    h3{
       font-size: ${({ theme }) => theme.font_size.sub_title};
+      @media ${device.mobileS} {
+      font-size: 1.75rem;
+      }
    }
 
    p{

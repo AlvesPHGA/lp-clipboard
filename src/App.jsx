@@ -13,7 +13,8 @@ function App() {
          <Header />
          <main>
             <History />
-            {/* // <Snippets />
+            <Snippets />
+            {/* // 
             // <Access />
             // <Workflow />
             // <Companies />
