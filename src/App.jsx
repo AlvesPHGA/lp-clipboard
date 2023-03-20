@@ -15,11 +15,12 @@ function App() {
 
       window.addEventListener('scroll', () => {
          elements.forEach((element) => {
-            const el = element.getBoundingClientRect().y;
-            if (el < heightWin * 0.8) {
+            const el = element.getBoundingClientRect();
+            console.log(el.bottom);
+            if (el.y < heightWin * 0.8) {
                element.classList.add('active');
             }
-            if (el < heightWin * 0.1 || el > heightWin * 0.8) {
+            if (el.bottom < heightWin * 0.001 || el.bottom > heightWin * 0.8) {
                element.classList.remove('active');
             }
          });
