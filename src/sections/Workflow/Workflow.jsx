@@ -10,11 +10,13 @@ const Workflow = () => {
    return (
       <WorkflowStyle>
          <Wrap__1200>
-            <h2>Supercharge your workflow</h2>
-            <p>We've got the tools to boost your productivity.</p>
+            <div className="show-top">
+               <h2>Supercharge your workflow</h2>
+               <p>We've got the tools to boost your productivity.</p>
+            </div>
 
             <BoxWork>
-               <Work>
+               <Work className="show-right">
                   <div className="image">
                      <img src={iconBlacklist} alt="" />
                   </div>
@@ -34,7 +36,7 @@ const Workflow = () => {
                      consistent look
                   </p>
                </Work>
-               <Work>
+               <Work className="show-left">
                   <div className="image">
                      <img src={iconPreview} alt="" />
                   </div>

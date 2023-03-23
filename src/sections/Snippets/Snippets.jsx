@@ -11,7 +11,7 @@ import {
 const Snippets = () => {
    return (
       <SnippetsStyle>
-         <Wrap__1200>
+         <Wrap__1200 className="show-top">
             <h2>Keep track of your snippets</h2>
             <p>
                Clipboard instantly stores any item you copy in the cloud,
@@ -20,8 +20,8 @@ const Snippets = () => {
             </p>
          </Wrap__1200>
          <Functionalities>
-            <BoxImg></BoxImg>
-            <BoxFunctionalities>
+            <BoxImg className="show-right"></BoxImg>
+            <BoxFunctionalities className="show-left">
                <Functionality>
                   <h3>Quick Search</h3>
                   <p>

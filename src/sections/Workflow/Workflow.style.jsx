@@ -6,7 +6,7 @@ export const WorkflowStyle = styled.section`
    padding: 2.5rem 0;
    opacity: 0;
    transition: 1s ease;
-   transform: translateX(-200px);
+   overflow: hidden;
 
    & p {
       margin-top: 1.75rem;
