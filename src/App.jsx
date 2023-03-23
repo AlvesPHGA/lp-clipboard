@@ -13,16 +13,18 @@ function App() {
       const elements = document.querySelectorAll('section');
       const heightWin = window.innerHeight;
 
+      elements[0].classList.add('active');
+
       window.addEventListener('scroll', () => {
          elements.forEach((element) => {
             const el = element.getBoundingClientRect();
-            console.log(el.bottom);
+            // console.log(el.bottom);
             if (el.y < heightWin * 0.8) {
                element.classList.add('active');
             }
-            if (el.bottom < heightWin * 0.001 || el.bottom > heightWin * 0.8) {
-               element.classList.remove('active');
-            }
+            // if (el.bottom < heightWin * 0.1 || el.bottom > heightWin * 0.1) {
+            //    console.log(element);
+            // }
          });
       });
    }, []);

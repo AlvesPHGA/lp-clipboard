@@ -4,6 +4,13 @@ import { device } from '../../Styles/Breakpoints.style';
 export const WorkflowStyle = styled.section`
    text-align: center;
    padding: 2.5rem 0;
+   opacity: 0;
+   transition: 1s ease;
+
+   &.active {
+      opacity: 1;
+      transition: 2s;
+   }
 
    & p {
       margin-top: 1.75rem;
