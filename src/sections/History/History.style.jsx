@@ -6,11 +6,7 @@ export const HistoryStyle = styled.section`
    text-align: center;
    opacity: 0;
    transition: 1s ease;
-
-   &.active {
-      opacity: 1;
-      transition: 2s;
-   }
+   transform: translateX(-200px);
 
    @media ${device.mobileS} {
       padding: 2.5rem 0;

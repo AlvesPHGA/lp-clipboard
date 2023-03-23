@@ -6,6 +6,7 @@ export const AccessStyle = styled.section`
    text-align: center;
    opacity: 0;
    transition: 1s ease;
+   transform: translateX(-200px);
 
    @media ${device.mobileS} {
       padding: 2.5rem 0;

@@ -5,6 +5,7 @@ export const CompaniesStyle = styled.section`
    padding: 5rem 0;
    opacity: 0;
    transition: 1s ease;
+   transform: translateX(-200px);
 
    & .companies {
       margin: 0 auto;

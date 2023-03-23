@@ -8,6 +8,7 @@ export const SnippetsStyle = styled.section`
    padding: 5rem 0;
    opacity: 0;
    transition: 1s ease;
+   transform: translateX(-200px);
 
    @media ${device.mobileS} {
       width: 100%;
