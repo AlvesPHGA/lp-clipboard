@@ -29,7 +29,10 @@ function App() {
 
    return (
       <AppStyle>
-         <Head />
+         <Head
+            title="Clipboard"
+            description="Clipboard allows you to track and organize everything you compy. Instantly access your clipboard on all your devices."
+         />
          <Header />
          <main>
             <History />
