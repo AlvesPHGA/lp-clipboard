@@ -7,6 +7,7 @@ import Snippets from './sections/Snippets/Snippets';
 import Header from './sections/Header/Header';
 import Workflow from './sections/Workflow/Workflow';
 import React from 'react';
+import { AppStyle } from './Styles/App.style';
 
 function App() {
    React.useEffect(() => {
@@ -30,7 +31,7 @@ function App() {
    }, []);
 
    return (
-      <>
+      <AppStyle>
          <Header />
          <main>
             <History />
@@ -41,7 +42,7 @@ function App() {
             <Download />
          </main>
          <Footer />
-      </>
+      </AppStyle>
    );
 }
 

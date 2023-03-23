@@ -6,11 +6,6 @@ export const CompaniesStyle = styled.section`
    opacity: 0;
    transition: 1s ease;
 
-   &.active {
-      opacity: 1;
-      transition: 2s;
-   }
-
    & .companies {
       margin: 0 auto;
       display: grid;

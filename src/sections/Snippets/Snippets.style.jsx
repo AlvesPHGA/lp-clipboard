@@ -9,11 +9,6 @@ export const SnippetsStyle = styled.section`
    opacity: 0;
    transition: 1s ease;
 
-   &.active {
-      opacity: 1;
-      transition: 2s;
-   }
-
    @media ${device.mobileS} {
       width: 100%;
       padding-bottom: 2.5rem;
