@@ -8,6 +8,7 @@ import Header from './sections/Header/Header';
 import Workflow from './sections/Workflow/Workflow';
 import React from 'react';
 import { AppStyle } from './Styles/App.style';
+import Head from './components/Head/Head';
 
 function App() {
    React.useEffect(() => {
@@ -19,19 +20,16 @@ function App() {
       window.addEventListener('scroll', () => {
          elements.forEach((element) => {
             const el = element.getBoundingClientRect();
-            // console.log(el.bottom);
-            if (el.y < heightWin * 0.8) {
-               element.classList.add('active');
-            }
-            // if (el.bottom < heightWin * 0.1 || el.bottom > heightWin * 0.1) {
-            //    console.log(element);
-            // }
+
+            if (el.y < heightWin * 0.8) element.classList.add('active');
+            if (el.y > heightWin * 0.8) element.classList.remove('active');
          });
       });
    }, []);
 
    return (
       <AppStyle>
+         <Head />
          <Header />
          <main>
             <History />
