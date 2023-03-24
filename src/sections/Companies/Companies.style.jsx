@@ -18,6 +18,12 @@ export const CompaniesStyle = styled.section`
          flex-direction: column;
          gap: 4rem;
       }
+
+      @media ${device.mobileM} {
+         display: flex;
+         flex-direction: column;
+         gap: 4rem;
+      }
    }
 `;
 

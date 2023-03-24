@@ -12,12 +12,21 @@ export const HistoryStyle = styled.section`
       padding: 2.5rem 0;
    }
 
+   @media ${device.mobileM} {
+      padding: 2.5rem 0;
+   }
+
    & p {
       width: 40rem;
       line-height: 1.875rem;
       margin: 1.25rem auto;
 
       @media ${device.mobileS} {
+         width: 100%;
+         margin: 1.5rem 0 2rem;
+      }
+
+      @media ${device.mobileM} {
          width: 100%;
          margin: 1.5rem 0 2rem;
       }

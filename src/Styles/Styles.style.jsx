@@ -11,4 +11,10 @@ export const Wrap__1200 = styled.div`
       margin: 0;
       padding: 0 15px;
    }
+
+   @media ${device.mobileM} {
+      width: 100%;
+      padding: 0 15px;
+      margin: 0;
+   }
 `;

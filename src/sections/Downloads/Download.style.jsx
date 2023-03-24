@@ -12,12 +12,21 @@ export const DownloadStyle = styled.section`
       padding: 2.5rem 0 5rem;
    }
 
+   @media ${device.mobileM} {
+      padding: 2.5rem 0 5rem;
+   }
+
    & p {
       width: 45rem;
       margin: 1rem auto 2.5rem;
       line-height: 2rem;
 
       @media ${device.mobileS} {
+         width: 100%;
+         line-height: 1.875;
+      }
+
+      @media ${device.mobileM} {
          width: 100%;
          line-height: 1.875;
       }

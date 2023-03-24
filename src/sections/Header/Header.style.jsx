@@ -19,6 +19,11 @@ export const HeaderStyle = styled.header`
       background: url(${backSubMob}) no-repeat center;
    }
 
+   @media ${device.mobileM} {
+      height: 152px;
+      background: url(${backSubMob}) no-repeat center;
+   }
+
    & img {
       width: 100px;
 

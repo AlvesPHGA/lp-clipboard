@@ -12,6 +12,10 @@ export const AccessStyle = styled.section`
       padding: 2.5rem 0;
    }
 
+   @media ${device.mobileM} {
+      padding: 2.5rem 0;
+   }
+
    & p {
       margin: 2rem 0 3rem;
       padding: 0 15rem;
@@ -20,10 +24,19 @@ export const AccessStyle = styled.section`
          padding: 0;
          line-height: 1.875rem;
       }
+
+      @media ${device.mobileM} {
+         padding: 0;
+         line-height: 1.875rem;
+      }
    }
 
    & img {
       @media ${device.mobileS} {
+         width: 100%;
+      }
+
+      @media ${device.mobileM} {
          width: 100%;
       }
    }

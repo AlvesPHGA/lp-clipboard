@@ -15,6 +15,11 @@ export const WorkflowStyle = styled.section`
          margin-top: 1rem;
          line-height: 1.875rem;
       }
+
+      @media ${device.mobileM} {
+         margin-top: 1rem;
+         line-height: 1.875rem;
+      }
    }
 `;
 
@@ -29,10 +34,20 @@ export const BoxWork = styled.section`
       flex-direction: column;
       margin-top: 3.5rem;
    }
+
+   @media ${device.mobileM} {
+      display: flex;
+      flex-direction: column;
+      margin-top: 3.5rem;
+   }
 `;
 
 export const Work = styled.div`
    &:nth-child(2) {
+      @media ${device.mobileS} {
+         margin: 3rem 0;
+      }
+
       @media ${device.mobileS} {
          margin: 3rem 0;
       }

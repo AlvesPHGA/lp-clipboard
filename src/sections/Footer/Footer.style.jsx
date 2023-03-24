@@ -9,6 +9,10 @@ export const FooterStyle = styled.footer`
    @media ${device.mobileS} {
       padding: 1rem 0;
    }
+
+   @media ${device.mobileM} {
+      padding: 1rem 0;
+   }
 `;
 
 export const BoxContentFooter = styled.div`
@@ -21,8 +25,17 @@ export const BoxContentFooter = styled.div`
       gap: 2rem;
    }
 
+   @media ${device.mobileM} {
+      flex-direction: column;
+      gap: 2rem;
+   }
+
    & .logo img {
       @media ${device.mobileS} {
+         width: 100px;
+      }
+
+      @media ${device.mobileM} {
          width: 100px;
       }
    }
@@ -67,6 +80,13 @@ export const BoxContentFooter = styled.div`
       }
 
       @media ${device.mobileS} {
+         display: flex;
+         flex-direction: column;
+         gap: 1rem;
+         text-align: center;
+      }
+
+      @media ${device.mobileM} {
          display: flex;
          flex-direction: column;
          gap: 1rem;

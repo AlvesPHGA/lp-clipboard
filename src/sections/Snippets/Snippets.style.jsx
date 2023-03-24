@@ -15,12 +15,22 @@ export const SnippetsStyle = styled.section`
       padding-bottom: 2.5rem;
    }
 
+   @media ${device.mobileM} {
+      width: 100%;
+      padding-bottom: 2.5rem;
+   }
+
    & p {
       width: 44rem;
       line-height: 1.875rem;
       margin: 1.25rem auto;
 
       @media ${device.mobileS} {
+         width: 100%;
+         margin-bottom: 2rem;
+      }
+
+      @media ${device.mobileM} {
          width: 100%;
          margin-bottom: 2rem;
       }
@@ -34,6 +44,14 @@ export const Functionalities = styled.section`
    align-items: center;
 
    @media ${device.mobileS} {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 1.25rem 15px;
+      gap: 3rem;
+   }
+
+   @media ${device.mobileM} {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -56,6 +74,14 @@ export const BoxImg = styled.div`
       background-position: center;
       height: 40vh;
    }
+
+   @media ${device.mobileM} {
+      width: 100%;
+      flex-direction: column;
+      padding-top: 1.25rem;
+      background-position: center;
+      height: 40vh;
+   }
 `;
 
 export const BoxFunctionalities = styled.div`
@@ -68,12 +94,21 @@ export const BoxFunctionalities = styled.div`
       padding-left: 0;
       gap: 3rem;
    }
+
+   @media ${device.mobileM} {
+      padding-left: 0;
+      gap: 3rem;
+   }
 `;
 
 export const Functionality = styled.div`
    text-align: left;
 
    @media ${device.mobileS} {
+      text-align: center;
+   }
+
+   @media ${device.mobileM} {
       text-align: center;
    }
 
@@ -88,6 +123,11 @@ export const Functionality = styled.div`
       margin: 0;
 
       @media ${device.mobileS} {
+         width: 100%;
+         text-align: center;
+      }
+
+      @media ${device.mobileM} {
          width: 100%;
          text-align: center;
       }
