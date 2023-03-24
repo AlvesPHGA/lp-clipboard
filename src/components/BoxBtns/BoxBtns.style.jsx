@@ -12,4 +12,9 @@ export const BoxBtnsStyle = styled.div`
       flex-direction: column;
       gap: 1rem;
    }
+
+   @media ${device.mobileM} {
+      flex-direction: column;
+      gap: 1rem;
+   }
 `;

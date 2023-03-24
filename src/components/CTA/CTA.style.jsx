@@ -27,6 +27,10 @@ export const CTAStyle = styled.a`
       width: 100%;
    }
 
+   @media ${device.mobileM} {
+      width: 100%;
+   }
+
    &:hover {
       opacity: 0.8;
       box-shadow: 0px 2px 0px 1px
